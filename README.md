@@ -2,7 +2,7 @@
 
 first learn about structure data
 
-//object
+
 let restaurant = {
     name: "Bakso Mang Dicoding",
     city: "Bandung",
@@ -17,7 +17,7 @@ let favoriteDrink = restaurant["favorite drink"];
 console.log(name);
 console.log(favoriteDrink);
 
-//Array
+
 let evenNumber = [];
 
 for (let i = 1; i <= 100; i++) {
@@ -28,7 +28,7 @@ for (let i = 1; i <= 100; i++) {
 
 console.log(evenNumber);
 
-//Map
+
 let currency = new Map([
   ["USD", 14000],
   ["JPY", 131],
