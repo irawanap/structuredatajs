@@ -1,42 +1,10 @@
 # structuredatajs
 
-first learn about structure data
+Untuk menyelesaikan masalah yang lebih kompleks secara efisien, kita membutuhkan struktur data yang lebih canggih dibandingkan variabel primitif. JavaScript memiliki tipe data lain yang dapat menyimpan banyak data sekaligus, contohnya seperti Object, Arrays, Map, dan Set.
 
+Beberapa hal yang telah kita bahas pada modul ini, antara lain:
 
-let restaurant = {
-    name: "Bakso Mang Dicoding",
-    city: "Bandung",
-    "favorite drink": "Es Teh",
-    "favorite food": "Bakso",
-    isVegan: false
-};
-
-let name = restaurant.name;
-let favoriteDrink = restaurant["favorite drink"];
-
-console.log(name);
-console.log(favoriteDrink);
-
-
-let evenNumber = [];
-
-for (let i = 1; i <= 100; i++) {
-    if (i % 2 === 0) {
-        evenNumber.push(i);
-    }
-}
-
-console.log(evenNumber);
-
-
-let currency = new Map([
-  ["USD", 14000],
-  ["JPY", 131],
-  ["SGD", 11000],
-  ["MYR", 3500],
- ]);
-
- const priceInJPY = 5000;
-
-const priceInIDR = priceInJPY * currency.get("JPY");
-console.log(priceInIDR);
+Object adalah tipe data kompleks untuk menyimpan banyak data dengan format key-value. Key pada object harus berupa string.
+Array digunakan untuk menyimpan banyak data. Data pada array disusun secara berurutan dan diakses menggunakan index.
+Map menyimpan banyak data dengan format key-value seperti object. Namun, key pada Map dapat bertipe apa pun.
+Set digunakan untuk menyimpan banyak data secara unik, tidak ada duplikasi, tidak berurutan, dan tidak diindeks.
